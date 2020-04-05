@@ -22,6 +22,11 @@ kintone-like-clickのアイコンをクリックし、
 kintoneのスペースのスレッド画面(以下のURLのページ上)で、  
 kintone-like-clickのアイコンをクリックすると、  
 画面左上「スレッドを追加」の右側にユーザー名を入力するフォームが現れます。  
+
+```URL
+https://{subdomain}.cybozu.com/k/#/space/{spaceId}/thread/{threadId}
+```
+
 ユーザー名を入力して「Like！」ボタンを押下すると、  
 今表示されているスレッド上の該当のユーザーの全てのコメントが「いいね！」されます。  
 
