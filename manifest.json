@@ -1,0 +1,14 @@
+{
+  "name": "kintone-like-click",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "click all like buttons on current page in kintone",
+  "content_scripts": [{
+    "matches": [
+      "https://*.cybozu.com/k/*"
+    ],
+    "js": [
+      "js/index.js"
+    ]
+  }]
+}

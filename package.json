@@ -1,0 +1,25 @@
+{
+  "name": "kintone-like-click",
+  "version": "1.0.0",
+  "description": "click all like buttons on current page in kintone",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zennosuke/kintone-like-click.git"
+  },
+  "author": "zenei_esaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zennosuke/kintone-like-click/issues"
+  },
+  "homepage": "https://github.com/zennosuke/kintone-like-click#readme",
+  "devDependencies": {
+    "@cybozu/eslint-config": "^10.0.2",
+    "eslint": "^6.8.0",
+    "prettier": "^2.0.2",
+    "typescript": "^3.8.3"
+  }
+}
