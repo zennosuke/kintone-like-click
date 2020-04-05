@@ -5,9 +5,12 @@ kintoneのスペースのスレッドにコメントしているユーザーを�
 
 ## how to deploy
 
+kintone-like-clickフォルダをダウンロードしてzipを解凍、  
+もしくはgit cloneしてください。  
+
 Chromeの拡張機能ページ右上の「デベロッパーモード」をONにして、  
 Chromeの拡張ページの左上「パッケージ化されていない拡張機能を読み込む」から  
-ダウンロードした「kintoneーlikeーclick」フォルダを選択します。  
+ダウンロードした「kintone-like-click」フォルダを選択します。  
 
 kintoneのスペースのスレッド画面(以下のURLのページ上)で、  
 kintone-like-clickのアイコンをクリックし、  
