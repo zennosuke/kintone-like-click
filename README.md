@@ -3,7 +3,7 @@
 kintoneのスペースのスレッドにコメントしているユーザーを指定して、  
 画面上に表示されているそのユーザーの全てのコメントに「いいね！」をつけるChrome拡張です。
 
-## how to deploy
+## How to deploy
 
 kintone-like-clickフォルダをダウンロードしてzipを解凍、  
 もしくはgit cloneしてください。  
@@ -17,7 +17,7 @@ kintone-like-clickのアイコンをクリックし、
 [サイトデータの読み取りと変更を行います] > [拡張機能をクリックした時]  
 を選択して準備完了です。  
 
-## how to use
+## How to use
 
 kintoneのスペースのスレッド画面(以下のURLのページ上)で、  
 kintone-like-clickのアイコンをクリックすると、  
