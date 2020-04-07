@@ -1,4 +1,7 @@
+import swal from 'sweetalert2';
+
 (() => {
+
   'use strict';
 
   const currentPageUrl = window.location.hash;
@@ -25,6 +28,7 @@
 
     const clickAllLike = inputName => {
 
+      let changeCount = 0;
       const commentBodies = document.querySelectorAll('.ocean-ui-comments-commentbase-body');
       const like = {
         'ja': 'いいね！',
@@ -43,8 +47,10 @@
             || commentLike.innerText === like.cn) {
           // clike like button
           commentLike.click();
+          changeCount++;
         }
       });
+      return [inputName, changeCount];
     };
 
     buttonEl.addEventListener('click', () => {
@@ -52,9 +58,20 @@
       const inputName = textBoxEl.value;
 
       if (!inputName) {
-        alert('Input Username!!');
+        // alert('Input Username!!');
+        swal.fire({
+          title: 'Input username!!',
+          icon: 'error',
+          button: 'OK'
+        });
       } else {
-        clickAllLike(inputName);
+        const changedCount = clickAllLike(inputName);
+        swal.fire({
+          title: `Liked all ${inputName}'s commnents!`,
+          text: `Liked ${changedCount[1]} comments!`,
+          icon: 'success',
+          button: 'OK'
+        });
       }
     });
   }
